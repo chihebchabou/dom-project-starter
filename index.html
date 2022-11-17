@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>DOM Project</title>
+  </head>
+  <body>
+    <section class="basket">
+      <div class="cart-items">
+        <!-- Single Item Start -->
+        <div class="single-item card grid-3">
+          <div class="col">
+            <img
+              src="https://image.spreadshirtmedia.net/image-server/v1/products/a47dd951-2359-4a1a-8dc3-c7ab49141177,width=300,height=300,appearanceId=577.png"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <h4>Unisex Hoodie</h4>
+            <span><strong>Size: </strong>M</span>
+            <span><strong>Colour: </strong>light heather grey</span>
+          </div>
+          <div class="col">
+            <h4><span class="price">40.00</span> €</h4>
+            <div>
+              <div class="p-y">
+                <i class="fa-solid fa-square-minus fa-xl"></i>
+                <span>1</span>
+                <i class="fa-solid fa-square-plus fa-xl"></i>
+              </div>
+              <div class="p-y">
+                <i class="fa-solid fa-thumbs-up fa-xl"></i>
+                <i class="fa-solid fa-trash fa-xl"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Single Item End -->
+        <!-- Single Item Start -->
+        <div class="single-item card grid-3">
+          <div class="col">
+            <img
+              src="https://image.spreadshirtmedia.net/image-server/v1/products/e159da11-4af7-4cba-8f6f-bbdbac925a77,width=300,height=300,appearanceId=762.png"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <h4>Men's T-Shirt with colour gradients</h4>
+            <span><strong>Size: </strong>M</span>
+            <span><strong>Colour: </strong>dip dye khaki</span>
+          </div>
+          <div class="col">
+            <h4><span class="price">26.00</span> €</h4>
+            <div>
+              <div class="p-y">
+                <i class="fa-solid fa-square-minus fa-xl"></i>
+                <span>1</span>
+                <i class="fa-solid fa-square-plus fa-xl"></i>
+              </div>
+              <div class="p-y">
+                <i class="fa-solid fa-thumbs-up fa-xl"></i>
+                <i class="fa-solid fa-trash fa-xl"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Single Item End -->
+        <!-- Single Item Start -->
+        <div class="single-item card grid-3">
+          <div class="col">
+            <img
+              src="https://image.spreadshirtmedia.net/image-server/v1/products/452c3789-8ef8-4a4a-9f0d-8c16d92d5805,width=300,height=300,appearanceId=17.png"
+              alt=""
+            />
+          </div>
+          <div class="col">
+            <h4>Unisex Sweatshirt</h4>
+            <span><strong>Size: </strong>L</span>
+            <span><strong>Colour: </strong>royal blue</span>
+          </div>
+          <div class="col">
+            <h4><span class="price">75.00</span> €</h4>
+            <div>
+              <div class="p-y">
+                <i class="fa-solid fa-square-minus fa-xl"></i>
+                <span>1</span>
+                <i class="fa-solid fa-square-plus fa-xl"></i>
+              </div>
+              <div class="p-y">
+                <i class="fa-solid fa-thumbs-up fa-xl"></i>
+                <i class="fa-solid fa-trash fa-xl"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Single Item End -->
+      </div>
+      <div class="total-price card">
+        <strong>Total: </strong><span id="total">0.00</span> €
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
